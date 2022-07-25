@@ -1,9 +1,78 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
-h1{
+/* h1{
     font-family: 'PT Serif', serif;
+} */
+/* :root{
+    
+} */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 7vw;
+  align-items: center;
+}
+nav button {
+  background-color: blue;
+  color: #ffffff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  /* margin-top: -15px; */
+}
+.hero {
+  display: flex;
+  padding: 5vw 7vw;
+}
+.Urano {
+  flex: 40%;
+  padding-top: 10em;
+  width: 30px;
+  /* width: 50%; */
+}
+.Urano h2 {
+  font-size: 32px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  color: #0b162b;
+  font-weight: 700;
+/* font-size: 64px; */
+/* line-height: 72px; */
+  /* line-height: 10px; */
+}
+.Urano p {
+  font-family: "PT Serif", serif;
+  padding-bottom: 10px;
+  /* line-height: 1.5em; */
+  color: #0b162b;
+  /* font-family: 'PT Serif'; */
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+}
+
+.store {
+  display: flex;
+  gap: 10px;
+}
+.store img {
+  width: 120px;
+}
+.iphone {
+  flex: 60%;
+  /* padding-left: 17em; */
+  position: relative;
+  /* width: 50%; */
+  /* margin-left: 15em; */
+}
+.iphone img {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  right: 6em;
 }
