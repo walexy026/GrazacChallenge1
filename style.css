@@ -22,6 +22,7 @@ nav button {
   padding: 1em 2em;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
   /* margin-top: -15px; */
 }
 .hero {
@@ -77,7 +78,7 @@ nav button {
   right: 6em;
 }
 .sectionTwo {
-    margin: 4em 0;
+  margin: 4em 0;
   display: flex;
   padding: 5vw 7vw;
   gap: 1em;
@@ -85,19 +86,89 @@ nav button {
 hr {
   background-color: #5558db;
   width: 37%;
-  margin: 1em 0; 
-  padding-top: 3px; 
+  margin: 1em 0;
+  padding-top: 3px;
 }
-.videoPlayBack div:nth-of-type(1){
-background-color:#0B162B ;
+.videoPlayBack div:nth-of-type(1) {
+  background-color: #0b162b;
+  padding: 5vw 7vw;
 }
-.videoPlayBack div:nth-of-type(1) h2{
-    color: #FFFFFF;
-    
+.videoPlayBack div:nth-of-type(1) h2 {
+  color: #ffffff;
+  padding-bottom: 1em;
 }
-.videoPlayBack div:nth-of-type(1) p{
-    color: #FFFFFF;
+.videoPlayBack div:nth-of-type(1) p {
+  color: #ffffff;
+  max-width: 50%;
+  padding-bottom: 2em;
 }
-.videoPlayBack div:nth-of-type(2) img{
-    max-width: 100%;
+.videoPlayBack div:nth-of-type(1) button {
+  background-color: #5558db;
+  color: #ffffff;
+  padding: 1em 3em;
+  border: none;
 }
+.videoPlayBack div:nth-of-type(2) {
+  /* position: relative; */
+  background-image: url(./Assets/videoPlayBack.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* .videoPlayBack div:nth-of-type(2) img {
+  max-width: 100%;
+} */
+.videoPlayBack div:nth-of-type(2) h2 {
+  /* position: absolute; */
+  bottom: 5em;
+  color: #ffffff;
+  /* padding: 5vw 7vw; */
+  padding-left: 7vw;
+  padding-top: 45vh;
+}
+.videoPlayBack div:nth-of-type(2) p {
+    padding-left: 7vw;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+  /* bottom: 2em; */
+  /* position: absolute; */
+  /* padding: 5vw 7vw; */
+  color: #ffffff;
+  width: 60%;
+  font-family: PT Serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.Lorem{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "iphoneBlack 1orem1 lorem2"
+                       "iphoneBlack lorem3 lorem4";
+  gap: 1em;
+}
+.iphoneBlack{
+  grid-area: iphoneBlack;
+
+}
+/* .lorem1{
+  grid-area: lorem1;
+}
+.lorem2{
+  grid-area: lorem2;
+}
+.lorem3{
+  grid-area: lorem3;
+}
+.lorem4{
+  grid-area: lorem4;
+} */
+/* display: grid;
+padding: 2em;
+grid-template-areas:
+  "elementOne elementOne elementTwo elementThree"
+  "elementFour elementFive elementFive elementThree";
+gap: 1em; */
