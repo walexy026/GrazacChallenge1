@@ -40,20 +40,20 @@ nav button {
   margin-top: 10px;
   color: #0b162b;
   font-weight: 700;
-/* font-size: 64px; */
-/* line-height: 72px; */
+  /* font-size: 64px; */
+  /* line-height: 72px; */
   /* line-height: 10px; */
 }
 .Urano p {
-  font-family: "PT Serif", serif;
+  font-family: "PT Serif";
   padding-bottom: 10px;
   /* line-height: 1.5em; */
   color: #0b162b;
   /* font-family: 'PT Serif'; */
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 36px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
 }
 
 .store {
@@ -75,4 +75,9 @@ line-height: 36px;
   width: 250px;
   height: auto;
   right: 6em;
+}
+.sectionTwo {
+  display: flex;
+  padding: 5vw 7vw;
+  gap: 1em;
 }
