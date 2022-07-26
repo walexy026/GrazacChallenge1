@@ -206,9 +206,8 @@ footer div > h2 {
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0px;
-  text-align: center;
+  /* text-align: center; */
   color: #ffffff;
-
 }
 footer div > p {
   font-family: PT Serif;
@@ -218,7 +217,6 @@ footer div > p {
   letter-spacing: 0px;
   text-align: center;
   color: #ffffff;
-
 }
 footer div > button {
   background-color: #5558db;
@@ -234,9 +232,38 @@ footer div > button {
   mix-blend-mode: normal;
   opacity: 0.2;
 } */
-/* display: grid;
-padding: 2em;
-grid-template-areas:
-  "elementOne elementOne elementTwo elementThree"
-  "elementFour elementFive elementFive elementThree";
-gap: 1em; */
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+.services ul a {
+  text-decoration: none;
+  line-height: 2em;
+  color: #ffffff;
+  font-family: "PT Serif";
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.services ul a li {
+  list-style: none;
+}
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.fa {
+  gap: 2em;
+  color: #ffffff;
+  opacity: 0.5;
+}
+aside {
+  padding-top: 1em;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-bottom: 2em;
+}
