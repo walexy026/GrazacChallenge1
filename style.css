@@ -76,7 +76,7 @@ nav button:hover{
  
 }
 .iphone img {
-  transform: translateX(50%);
+  transform: translateX(80%);
   /* position: absolute;
   width: 250px;
   height: auto;
@@ -91,8 +91,7 @@ nav button:hover{
 /* } */
 @media only screen and (max-width:685){
   .iphone img{
-    position: absolute;
-    right: 5px;
+  transform: translateX(20%);
 }
 }
 @media only screen and (max-width:650px){
