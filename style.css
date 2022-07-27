@@ -67,7 +67,7 @@ nav button:hover{
   display: flex;
   gap: 10px;
 }
-.store img {
+.store svg {
   width: 120px;
 }
 .iphone {
