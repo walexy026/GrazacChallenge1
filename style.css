@@ -55,6 +55,7 @@ nav button:hover{
   font:normal 0 400 0 20px 36px  ;
  font-family: "PT Serif"; 
  padding-bottom: 1em;
+ width: 100%;
   /* padding-bottom: 10px;
   color: #0b162b;
   font-style: normal;
@@ -65,13 +66,15 @@ nav button:hover{
 
 .store {
   display: flex;
+  justify-content: space-between;
+  align-content: center;
   gap: 10px;
 }
 .store svg {
   width: 120px;
 }
 .iphone {
-  flex: 60%;
+  /* flex: 60%; */
   /* position: relative; */
  
 }
