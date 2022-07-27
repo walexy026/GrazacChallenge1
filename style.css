@@ -25,6 +25,11 @@ nav button {
   cursor: pointer;
   /* margin-top: -15px; */
 }
+nav button:hover{
+  background-color: #4a06c9;
+  color: #ffffff;
+  opacity: 0.5;
+}
 .hero {
   display: flex;
   padding: 5vw 7vw;
@@ -32,8 +37,8 @@ nav button {
 .Urano {
   flex: 40%;
   padding-top: 10em;
-  width: 30px;
-  /* width: 50%; */
+  /* width: 30px; */
+  
 }
 .Urano h2 {
   font: 32px 0 700;
@@ -47,7 +52,7 @@ nav button {
   /* line-height: 10px; */
 }
 .Urano p {
-  font:normal 0 400 0 14px 36px  ;
+  font:normal 0 400 0 20px 36px  ;
  font-family: "PT Serif"; 
  padding-bottom: 1em;
   /* padding-bottom: 10px;
@@ -67,22 +72,50 @@ nav button {
 }
 .iphone {
   flex: 60%;
-  /* padding-left: 17em; */
-  position: relative;
-  /* width: 50%; */
-  /* margin-left: 15em; */
+  /* position: relative; */
+ 
 }
 .iphone img {
-  position: absolute;
+  transform: translateX(50%);
+  /* position: absolute;
   width: 250px;
   height: auto;
-  right: 6em;
+  right: 6em; */
+}
+/* @media only screen and (max-width:768px){ */
+/* .iphone img{ */
+  /* position: absolute; */
+  /* right: 2em; */
+  /* display: none; */
+/* } */
+/* } */
+@media only screen and (max-width:685){
+  .iphone img{
+    position: absolute;
+    right: 5px;
+}
+}
+@media only screen and (max-width:650px){
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+
+/* .iphone{
+  position: fixed;
+} */
 }
 .sectionTwo {
   margin: 4em 0;
   display: flex;
   padding: 5vw 7vw;
   gap: 1em;
+}
+.sectionTwo P{
+  /* display: none; */
+  background-color: #ffffff;
+  opacity: 0.5;
+  /* box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  */
 }
 hr {
   background-color: #5558db;
@@ -108,6 +141,12 @@ hr {
   color: #ffffff;
   padding: 1em 3em;
   border: none;
+}
+.videoPlayBack div:nth-of-type(1) button:hover{
+  background-color: #5558db;
+  opacity: 0.5;
+  color: #ffffff;
+  cursor: grab;
 }
 .videoPlayBack div:nth-of-type(2) {
   /* position: relative; */
@@ -220,6 +259,12 @@ footer div > button {
   /* margin-bottom: 4em; */
   border: none;
   text-align: center;
+}
+footer div > button:hover{
+  background-color: #5558db;
+  color: #ffffff;
+  opacity: 0.5;
+  cursor: grab;
 }
 .line::before {
 content: '';
