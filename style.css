@@ -73,18 +73,17 @@ nav button:hover{
 .store svg {
   width: 120px;
 }
-.iphone {
-  /* flex: 60%; */
-  /* position: relative; */
- 
-}
-.iphone img {
-  transform: translateX(80%);
+/* .iphone {
+  flex: 60%;
+  position: relative;
+} */
+/* .iphone img { */
+  /* transform: translateX(80%); */
   /* position: absolute;
   width: 250px;
   height: auto;
   right: 6em; */
-}
+/* } */
 /* @media only screen and (max-width:768px){ */
 /* .iphone img{ */
   /* position: absolute; */
@@ -92,15 +91,15 @@ nav button:hover{
   /* display: none; */
 /* } */
 /* } */
-@media only screen and (max-width:685){
+/* @media only screen and (max-width:685){
   .iphone img{
   transform: translateX(20%);
 }
-}
+} */
 @media only screen and (max-width:650px){
 .hero{
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
 }
 
 /* .iphone{
@@ -125,6 +124,18 @@ hr {
   margin: 1em 0;
   padding-top: 3px;
 }
+
+@media only screen and (max-width:675px){
+  .sectionTwo{
+    display: flex;
+    flex-direction: column;
+  }
+  .services{
+    display: flex;
+    flex-direction: column;
+    gap: 1em !important;
+  }
+} 
 .videoPlayBack div:nth-of-type(1) {
   background-color: #0b162b;
   padding: 5vw 7vw;
