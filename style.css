@@ -25,7 +25,7 @@ nav button {
   cursor: pointer;
   /* margin-top: -15px; */
 }
-nav button:hover{
+nav button:hover {
   background-color: #4a06c9;
   color: #ffffff;
   opacity: 0.5;
@@ -35,10 +35,9 @@ nav button:hover{
   padding: 5vw 7vw;
 }
 .Urano {
-  flex: 40%;
-  padding-top: 10em;
+  /* flex: 40%; */
+  padding-top: 7em;
   /* width: 30px; */
-  
 }
 .Urano h2 {
   font: 32px 0 700;
@@ -52,10 +51,10 @@ nav button:hover{
   /* line-height: 10px; */
 }
 .Urano p {
-  font:normal 0 400 0 20px 36px  ;
- font-family: "PT Serif"; 
- padding-bottom: 1em;
- width: 100%;
+  font: normal 0 400 0 20px 36px;
+  font-family: "PT Serif";
+  padding-bottom: 1em;
+  width: 60%;
   /* padding-bottom: 10px;
   color: #0b162b;
   font-style: normal;
@@ -63,32 +62,33 @@ nav button:hover{
   font-size: 14px;
   line-height: 30px;  */
 }
-
+.gp{
+  width: 120px;
+}
+.ap{
+  width: 115px;
+}
 .store {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-content: center;
   gap: 10px;
 }
-.store svg {
+ /* .store div a img:nth-child(1) {
   width: 120px;
-}
+}  */
 /* .iphone {
   flex: 60%;
   position: relative;
 } */
-/* .iphone img { */
-  /* transform: translateX(80%); */
-  /* position: absolute;
-  width: 250px;
-  height: auto;
-  right: 6em; */
-/* } */
+.iphone svg {
+  height: 75vh;
+}
 /* @media only screen and (max-width:768px){ */
 /* .iphone img{ */
-  /* position: absolute; */
-  /* right: 2em; */
-  /* display: none; */
+/* position: absolute; */
+/* right: 2em; */
+/* display: none; */
 /* } */
 /* } */
 /* @media only screen and (max-width:685){
@@ -96,13 +96,27 @@ nav button:hover{
   transform: translateX(20%);
 }
 } */
-@media only screen and (max-width:650px){
-.hero{
-  display: flex;
-  flex-direction: column-reverse;
-}
+@media only screen and (max-width: 650px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .Urano {
+    padding-top: 2em;
+  }
+  .Urano h2 {
+    /* padding-top: 2em !important; */
+    text-align: center;
+  }
+  .Urano p {
+    text-align: center;
+    width: auto;
+  }
+  .store {
+    justify-content: center;
+  }
 
-/* .iphone{
+  /* .iphone{
   position: fixed;
 } */
 }
@@ -112,7 +126,7 @@ nav button:hover{
   padding: 5vw 7vw;
   gap: 1em;
 }
-.sectionTwo P{
+.sectionTwo P {
   /* display: none; */
   background-color: #ffffff;
   opacity: 0.5;
@@ -125,17 +139,17 @@ hr {
   padding-top: 3px;
 }
 
-@media only screen and (max-width:675px){
-  .sectionTwo{
+@media only screen and (max-width: 675px) {
+  .sectionTwo {
     display: flex;
     flex-direction: column;
   }
-  .services{
+  .services {
     display: flex;
     flex-direction: column;
     gap: 1em !important;
   }
-} 
+}
 .videoPlayBack div:nth-of-type(1) {
   background-color: #0b162b;
   padding: 5vw 7vw;
@@ -155,7 +169,7 @@ hr {
   padding: 1em 3em;
   border: none;
 }
-.videoPlayBack div:nth-of-type(1) button:hover{
+.videoPlayBack div:nth-of-type(1) button:hover {
   background-color: #5558db;
   opacity: 0.5;
   color: #ffffff;
@@ -167,7 +181,6 @@ hr {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 /* .videoPlayBack div:nth-of-type(2) img {
   max-width: 100%;
@@ -179,7 +192,7 @@ hr {
   padding-top: 45vh;
 }
 .videoPlayBack div:nth-of-type(2) p {
- padding: 1vh 0 5vh 7vw;
+  padding: 1vh 0 5vh 7vw;
   color: #ffffff;
   width: 60%;
   font-family: PT Serif;
@@ -273,24 +286,24 @@ footer div > button {
   border: none;
   text-align: center;
 }
-footer div > button:hover{
+footer div > button:hover {
   background-color: #5558db;
   color: #ffffff;
   opacity: 0.5;
   cursor: grab;
 }
 .line::before {
-content: '';
-background: #ffffff;
-height: 1px;
-width: 80%;
-margin-right: auto;
-margin-left: auto;
-display: block;
-/* padding-bottom: 2em; */
-transform: translateY(1px);
+  content: "";
+  background: #ffffff;
+  height: 1px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  /* padding-bottom: 2em; */
+  transform: translateY(1px);
   mix-blend-mode: normal;
-  opacity: 0.2; 
+  opacity: 0.2;
 }
 .services {
   display: flex;
