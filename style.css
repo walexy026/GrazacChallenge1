@@ -4,12 +4,6 @@
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
-/* h1{
-    font-family: 'PT Serif', serif;
-} */
-/* :root{
-    
-} */
 nav {
   display: flex;
   justify-content: space-between;
@@ -90,10 +84,10 @@ nav button:hover {
 @keyframes iphone {
   
     0%   {right:0px; top:0px;}
-    25%  { right:200px; top:0px;}
-    50%  { right:200px; top:100px;}
-    75%  {right:0px; top:100px;}
-    100% {right:0px; top:0px;}
+    25%  { right:100px; top:0px;}
+    50%  { right:100px; top:100px;}
+    75%  {right:-10px; top:100px;}
+    100% {right:-10px; top:0px;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -105,7 +99,6 @@ nav button:hover {
     padding-top: 2em;
   }
   .Urano h2 {
-    /* padding-top: 2em !important; */
     text-align: center;
   }
   .Urano p {
@@ -116,9 +109,6 @@ nav button:hover {
     justify-content: center;
   }
 
-  /* .iphone{
-  position: fixed;
-} */
 }
 .sectionTwo {
   margin: 4em 0;
@@ -184,7 +174,6 @@ hr {
 }
 .videoPlayBack div:nth-of-type(1) h2 {
   color: #ffffff;
-  /* padding-bottom: 1em; */
   font-weight: 700;
   font-size: 48px;
 }
@@ -216,9 +205,6 @@ hr {
   background-position: center;
   background-size: cover;
 }
-/* .videoPlayBack div:nth-of-type(2) img {
-  max-width: 100%;
-} */
 .videoPlayBack div:nth-of-type(2) h2 {
   bottom: 5em;
   color: #ffffff;
@@ -259,7 +245,7 @@ hr {
   text-align: center;
   padding-left: 2em;
 }
-.lorem1 img {
+.lorem1 img,.lorem2 img,.lorem3 img, .lorem4 img{
   padding-bottom: 1em;
 }
 .lorem2 {
@@ -269,25 +255,17 @@ hr {
 
   grid-area: lorem2;
 }
-.lorem2 img {
-  padding-bottom: 1em;
-}
 .lorem3 {
   grid-area: lorem3;
   text-align: center;
   padding-left: 2em;
-}
-.lorem3 img {
-  padding-bottom: 1em;
 }
 .lorem4 {
   grid-area: lorem4;
   text-align: center;
   padding-right: 2em;
 }
-.lorem4 img {
-  padding-bottom: 1em;
-}
+/* FOOTER */
 footer {
   background-color: #0b162b;
   text-align: center;
