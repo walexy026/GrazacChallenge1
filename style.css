@@ -85,15 +85,15 @@ nav button:hover {
   animation-name: iphone;
   animation-direction: alternate-reverse;
   animation-duration: 5s;
-  animation-iteration-count: 2;
+  animation-iteration-count: infinite;
 }
 @keyframes iphone {
-  from {
-    right: 300px;
-  }
-  to {
-    left: 0px;
-  }
+  
+    0%   {right:0px; top:0px;}
+    25%  { right:200px; top:0px;}
+    50%  { right:200px; top:100px;}
+    75%  {right:0px; top:100px;}
+    100% {right:0px; top:0px;}
 }
 
 @media only screen and (max-width: 768px) {
