@@ -79,12 +79,13 @@ nav button:hover {
   height: 75vh;
 }
 .iphone {
-  /* display: none; */
-  animation: iphone 2s infinite;
   animation-timing-function: ease-in;
   position: relative;
-  animation-delay: 1s;
+  animation-delay: 2s;
+  animation-name: iphone;
+  animation-direction: alternate-reverse;
   animation-duration: 5s;
+  animation-iteration-count: 2;
 }
 @keyframes iphone {
   from {
