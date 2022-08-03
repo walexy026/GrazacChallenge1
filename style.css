@@ -33,27 +33,23 @@ nav button:hover {
   padding-top: 7em;
 }
 .Urano h2 {
-  font: 32px 0 700;
-  /* font-size: 32px; */
+  font-size: 42px;
   padding-bottom: 10px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   color: #0b162b;
-  /* font-weight: 700; */
-  /* font-size: 64px; */
-  /* line-height: 72px; */
-  /* line-height: 10px; */
+  font-weight: 700;
+  /* line-height: 40px; */
 }
 .Urano p {
-  font: normal 0 400 0 20px 36px;
   font-family: "PT Serif";
   padding-bottom: 1em;
   width: 60%;
-  /* padding-bottom: 10px;
+  padding-bottom: 10px;
   color: #0b162b;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;  */
+  font-size: 17px;
+  line-height: 30px;
 }
 .gp {
   width: 120px;
@@ -63,16 +59,18 @@ nav button:hover {
 }
 .store {
   display: flex;
-
   align-content: center;
   gap: 10px;
 }
 
 .iphone svg {
+  /* width: 100%;
+  height: auto; */
   height: 75vh;
+  padding-right: 5em;
 }
 /* ANIMATION EFFECT */
-.iphone {
+/* .iphone {
   animation-timing-function: ease-in;
   position: relative;
   animation-delay: 2s;
@@ -102,7 +100,7 @@ nav button:hover {
     right: -10px;
     top: 0px;
   }
-}
+} */
 /* SECTION TWO */
 .sectionTwo {
   margin: 4em 0;
@@ -132,6 +130,7 @@ hr {
   }
   .Urano h2 {
     text-align: center;
+    font-size: 28px;
   }
   .Urano p {
     text-align: center;
@@ -140,13 +139,21 @@ hr {
   .store {
     justify-content: center;
   }
+  .iphone svg {
+    padding-right: 2em;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .Urano h2 {
+    font-size: 32px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .sectionTwo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: justify;
     text-align: -webkit-center;
     margin: 0 2em;
   }
@@ -178,15 +185,23 @@ hr {
     display: flex !important;
     justify-content: center !important;
     flex-direction: column !important;
+    align-items: center !important;
   }
   .lorem1,
-  .lorem2,
-  .lorem3,
-  .lorem4 {
+  /* .lorem2, */
+  /* .lorem4 */
+  .lorem3 {
     padding-top: 2em !important;
     text-align: center;
-    padding-left: 2em;
+    padding-left: 0em;
     line-height: 30px;
+  }
+  .lorem2,
+  .lorem4 {
+    padding-top: 2em !important;
+    line-height: 30px;
+    text-align: center;
+    padding-right: 0em !important;
   }
 }
 /* VIDEO PLAYBACK SECTION */
@@ -221,20 +236,20 @@ hr {
   color: #ffffff;
   cursor: grab;
 }
-.videoIframe{
-  position:relative;
+.videoIframe {
+  position: relative;
 }
 .videoIframe img {
   width: 100%;
   height: auto;
 }
-#videoTextH{
+#videoTextH {
   font-size: 34px;
   position: absolute;
   z-index: 1;
   color: #ffffff;
 }
-#videoTextP{
+#videoTextP {
   z-index: 1;
   position: absolute;
   bottom: 2em;
@@ -270,6 +285,7 @@ hr {
     "iphoneBlack 1orem1 lorem2"
     "iphoneBlack lorem3 lorem4";
   gap: 2em;
+  text-align: center;
 }
 .iphoneBlack img {
   height: auto;
@@ -314,22 +330,16 @@ footer {
 }
 footer div:nth-last-of-type(1) {
   padding-top: 2em;
-  /* text-align: center; */
   color: #ffffff;
 }
 footer div > h2 {
-  /* font-family: Montserrat; */
-  /* font-size: 48px; */
   padding-top: 2em;
   font-weight: 700;
-  /* line-height: 60px; */
   letter-spacing: 0px;
-  /* text-align: center; */
   color: #ffffff;
 }
 footer div > p {
   font-family: PT Serif;
-  /* font-size: 22px; */
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 1px;
@@ -341,7 +351,6 @@ footer div > button {
   color: #ffffff;
   padding: 1em 5em;
   margin-top: 1em;
-  /* margin-bottom: 4em; */
   border: none;
   text-align: center;
 }
@@ -349,7 +358,7 @@ footer div > button:hover {
   background-color: #5558db;
   color: #ffffff;
   opacity: 0.5;
-  cursor: grab;
+  cursor: grabbing;
 }
 .line::before {
   content: "";
@@ -367,7 +376,7 @@ footer div > button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3em;
+  gap: 4em;
   padding-top: 2em;
 }
 .services ul a {
@@ -385,7 +394,7 @@ footer div > button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 1em;
 }
 .fa {
   gap: 2em;
