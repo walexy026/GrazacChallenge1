@@ -15,7 +15,6 @@ This is a solution to the first Challenge in Grazac Academy to test our knowlegd
 - [Acknowledgments](#acknowledgments)
 
 
-
 ## Overview
 
 ### The challenge
@@ -30,7 +29,6 @@ Users should be able to:
 - Github URL: https://github.com/walexy026/GrazacChallenge1.git
 - Live Site URL: https://urano-challenge.vercel.app/
 
-## My process
 
 ### Built with
 
