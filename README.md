@@ -4,9 +4,7 @@ This is a solution to the first Challenge in Grazac Academy to test our knowlegd
 ## Table of contents
 
 - [Overview](#overview)
-- [The challenge](#the-challenge)
 - [Links](#links)
-- [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Continued development](#continued-development)
@@ -17,16 +15,9 @@ This is a solution to the first Challenge in Grazac Academy to test our knowlegd
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-
 ### Links
 
-- Github URL: https://github.com/walexy026/GrazacChallenge1.git
+- Github URL: https://github.com/walexy026/GrazacChallenge1
 - Live Site URL: https://urano-challenge.vercel.app/
 
 
@@ -59,4 +50,4 @@ OLAWALE OLANIYI
 - Twitter - https://www.twitter.com/olaniyi_wale26
 
 ## Acknowledgments
-I want to thank our faciliator Mr Riliwan Lukman(IYO) for his patience and always available to help
+I want to thank our faciliator Mr Riliwan Hassan(IYO) for his patience and always available to help
