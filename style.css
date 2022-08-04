@@ -166,7 +166,8 @@ hr {
   }
   .videoPlayBack div:nth-of-type(1) p {
     width: 100% !important;
-    font-size: 20px;
+    font-size: 15px !important;
+    line-height: 20px !important;
     text-align: center;
   }
   .videoPlayBack div:nth-of-type(1) button {
@@ -184,6 +185,7 @@ hr {
     justify-content: center !important;
     flex-direction: column !important;
     align-items: center !important;
+    margin-top: 1em;
   }
   .lorem1,
   /* .lorem2, */
@@ -191,7 +193,7 @@ hr {
   .lorem3 {
     padding-top: 2em !important;
     text-align: center;
-    padding-left: 0em;
+    padding-left: 0em !important;
     line-height: 30px;
   }
   .lorem2,
@@ -325,6 +327,8 @@ hr {
 footer {
   background-color: #0b162b;
   text-align: center;
+  padding-bottom: 4em;
+  padding-top: 4em;
 }
 footer div:nth-last-of-type(1) {
   padding-top: 2em;
@@ -394,11 +398,11 @@ footer div > button:hover {
   align-items: center;
   gap: 1em;
 }
-.fa {
+/* .fa {
   gap: 2em;
   color: #dbd8d89a;
   opacity: 0.5;
-}
+} */
 aside {
   padding-top: 1em;
   color: #ffffff;
