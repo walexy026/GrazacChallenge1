@@ -119,6 +119,9 @@ hr {
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 @media only screen and (max-width: 768px) {
+  nav button{
+    font-size: 13px;
+  }
   .hero {
     display: flex;
     flex-direction: column;
@@ -138,6 +141,7 @@ hr {
     justify-content: center;
   }
   .iphone svg {
+    padding-top: 1em;
     padding-right: 2em;
   }
 }
