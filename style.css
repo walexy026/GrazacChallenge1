@@ -5,6 +5,11 @@
   font-family: "Montserrat", sans-serif;
 }
 /* HEADER SECTION */
+/* header{
+  position: sticky;
+  z-index: 1;
+  top: 0;
+} */
 nav {
   display: flex;
   justify-content: space-between;
